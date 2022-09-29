@@ -1,0 +1,13 @@
+
+Nome Tabella: Auto Usate
+
+
+Id:                       INT                AUTO_INCREMENT, UNIQUE, NOT_NULL
+Anno_produzione:          YEAR               NOT_NULL
+Cilindrata:               SMALLINT           NOT_NULL
+Potenza:                  FLOAT(6,2)         NOT_NULL
+Motore:                   VARCHAR(30)        NOT_NULL
+Km_percorsi:              MEDIUMINT          NOT_NULL
+Proprietari:              TINYINT            DEFAULT(1)
+Colore:                   VARCHAR(50)        NOT_NULL
+Descrizione:              TEXT               NULLABLE
